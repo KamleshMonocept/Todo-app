@@ -4,24 +4,36 @@
     "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Todo.png",
     "userInterfaceStyle": "light",
+    "androidStatusBar": {
+      "backgroundColor": "#ddf5dd",
+      "barStyle": "default",
+      "hidden": false,
+      "translucent": true
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ddf5dd"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Todo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kamlesh_52625.todo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4538fad4-7f5f-4b45-a05f-95de5ac8d2c4"
+      }
     }
   }
 }
